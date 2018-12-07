@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sign-Up/Login Form</title>
+	<link href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet href="css/style.css">
+	<style>
+	body{
+	background-image:url("gla.jpg");
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-size:cover;}
+	</style>
+	
+	
+	<head>
+	
+	<body>
+	<div class="form">
+	<ul class="tab-group">
+		<li class="tab active"><a href="#signup">Sign Up</a></li>
+		<li class="tab active"><a href="#login">Log In</a></li
+	</ul>
+
+		<div class="tab-content">
+		<div id="signup">
+		<h1>FYND</h1>
+		
+		<form action="signupentry.php" method="POST">
+		
+		<div class="field-wrap">
+		<div class="field-wrap">
+		 <label>
+		 Name<span class="req"></span>
+		 </label>
+		 <input type="text" required autocomplete="off" name="n" pattern="[a-Za-z][A-Za-z][A-Za-z].{0,}"/>
+		 </div>
+		 
+		 </div>
+		 <div class="field-wrap">
+		    <label>
+		 E-Mail Address<span class="req"></span>
+		 </label>
+		 <input type="email" required autocomplete="off" name="ed"/>
+		 </div>
+		 
+		 
+		 <div class="field-wrap">
+		    <label>
+		 Mobile no<span class="req"></span>
+		 </label>
+		 <input type="text" required autocomplete="off" name="mn" pattern="[0-9]{10}"/>
+		 </div>
+		 
+		 <div class="field-wrap">
+		    <label>
+		 Set A Password<span class="req"></span>
+		 </label>
+		 <input type="password" required autocomplete="off" name="sap"/>
+		 </div>
+		 
+		 <button type="submit" class=" button button-block"/>Get Started</button>
+		 
+		 </form>
+		 
+		 </div>
+		 <div id="login">
+		 
+		 
+		 <h1>Welcome to Fynd</h1>
+		 <form action="loginentry.php" method="POST">
+		 
+		 <div class="field-wrap">
+		    <label>
+		 Name<span class="req"></span>
+		 </label>
+		 <input type="password" required autocomplete="off" name="sap"/>
+		 </div>
+		 
+		 
+		 <div class="field-wrap">
+		    <label>
+		 Password<span class="req"></span>
+		 </label>
+		 <input type="password" required autocomplete="off" name="sap"/>
+		 </div>
+		 
+		 <button type="submit" class=" button button-block"/>Login</button>
+		 
+		 </form>
+		 </div>
+		 </div>
+		 </div>
+		 <script src= https //ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js >
+		 </script>
+		 
+		 <script src="js/index.js"></script>
+		 </body>
+		 </html>
+		 
+		 
+		 
+		 
+		 
+		 
+		
+		
